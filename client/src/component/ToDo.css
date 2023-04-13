@@ -1,0 +1,122 @@
+/* Css for Add to do */
+
+.container {
+    width: 50vw;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.center {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    left: 3vw;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid rgb(123, 119, 119);
+    position: relative;
+    right: 0.6vw;
+
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: -46px;
+    left: 55vw;
+    text-align: center;
+
+}
+
+.height {
+    height: 5.5vh;
+    margin: 2px;
+}
+
+.wid {
+    width: 3.7vw;
+}
+
+/* Css for Update And delete inputs */
+.container-update {
+    height: 12vh;
+    justify-content: space-between;
+}
+
+
+.update {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    left: 1vw;
+    width: 40vw;
+    height: 6.5vh;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* css for update and delete btn */
+
+.update1,
+.update2,
+.update3 {
+    position: relative;
+    left: 47.8vw;
+    top: -8.5vh;
+}
+
+.delete1,
+.delete2,
+.delete3 {
+    position: relative;
+    left: 55vw;
+    top: -14.2vh;
+}
+
+.content {
+    border: 2px solid rgb(190, 185, 185);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 7vh;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 6px;
+    font-size: 18px;
+}
+
+/* while updating the input  */
+.update-textbox {
+    width: 40vw;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid grey;
+}
+
+.new-updatebtn {
+    position: relative;
+    left: 47.9vw;
+    height: 5.5vh;
+    top: -6vh;
+    background-color: rgb(219, 40, 219);
+}

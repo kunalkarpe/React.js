@@ -1,0 +1,11 @@
+.center {
+    box-sizing: border-box;
+    padding-bottom: 13px;
+}
+
+.container-m {
+    margin-left: 35vw;
+    /* border: 2px solid red; */
+    width: 25vw;
+    height: 90vh;
+}
